@@ -7,7 +7,7 @@ on:
     branches: [ "*" ]
 
 env:
-  imagename: juliette01/tp-cicd-back:${{ github.ref_name }}
+  IMAGE_NAME: juliette01/tp-cicd-back:${{ github.ref_name }}
 
 jobs:
   build:
