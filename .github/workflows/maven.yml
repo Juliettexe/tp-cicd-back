@@ -7,7 +7,7 @@ on:
     branches: [ "*" ]
 
 env:
-  IMAGE_NAME: ${{ vars.DOCKERHUB_USERNAME }}/tp-cicd-back:${{ github.ref_name }}
+  IMAGE_NAME: ${{ vars.DOCKER_USERNAME }}/tp-cicd-back:${{ github.ref_name }}
 
 jobs:
   build:
